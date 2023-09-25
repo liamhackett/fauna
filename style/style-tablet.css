@@ -1,0 +1,45 @@
+.releases-container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 90vw;
+    justify-content: center;
+}
+
+.releases-header {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.table-container {
+    margin-top: 150px;
+    height: 80vw;
+    width: 60vw;
+    text-align: center;
+  }
+
+.releases {
+    width: 100vw;
+}
+
+.album-card {
+    min-width: 20em;
+}
+
+.information-container {
+    grid-template-rows: auto auto 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "hr"
+      "title"
+      "image"
+      "text"
+      "image2"
+      "text2";
+    gap: 5px;
+    width: 100vw;
+  }
+
+  .text-2, .text-1{
+    padding: 5%;
+    font-size: larger;
+}

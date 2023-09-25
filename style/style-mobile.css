@@ -1,0 +1,77 @@
+
+
+/* .information-container {
+    grid-template-rows: auto auto 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "hr"
+      "title"
+      "image"
+      "text"
+      "image2"
+      "text2";
+    gap: 5px;
+    width: 100vw;
+  } */
+  
+
+.information-container figure img {
+    width: 20em;
+}
+
+.image-container {
+    width: 50px;
+    height: 50px;
+}
+
+/* .text-2, .text-1{
+    padding: 5%;
+    font-size: larger;
+} */
+
+
+
+  /* About page styles */
+.about-header {
+    width: 100vw;
+}
+
+  .about-container{
+    grid-template-columns: 1fr;
+  }
+  
+
+/* Releases */
+.releases-header {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.releases-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-card {
+    flex-direction: column;
+    width: 15em;
+    height: 20em;
+}
+
+  .album-card img {
+    height: 10em;
+  }
+  
+  
+  .album-card:hover {
+    background-color: rgba(0, 0, 0, 0.445);
+  }
+
+  .table-container {
+    margin-top: 150px;
+    height: 80vw;
+    width: 60vw;
+    text-align: center;
+  }
+
+  
